@@ -6,7 +6,11 @@ namespace Open_Lab_03._04
     {
         public string EvenOrOdd(int number)
         {
-            throw new NotImplementedException();
+            number = Convert.ToInt32(Console.ReadLine());
+            if(number % 2 == 0)
+                Console.WriteLine("Even", number);
+            else
+                Console.WriteLine("Odd", number);
         }
     }
 }
